@@ -1,0 +1,7 @@
+to run:
+java -classpath bin/ FPMiningDriver linegraph-big-dir/ all_graph_names alpha_from_1toMax output_encoded_tree_dir/ treeheight encodingBase[1000000 by default] [0/1]
+
+for example
+java -classpath bin/ FPMiningDriver test-new/ first_2_new numbered_new_alpha encoded_trees/ 3 1000000
+
+java -classpath bin/ FPMiningDriver  malware/ malware-name  malware-alphabet  encoded_malware/  3  100000 1 
